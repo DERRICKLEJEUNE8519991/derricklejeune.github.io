@@ -45,11 +45,10 @@ createPlatform(200, 400, 50, 10);
  createCollectable("max", 215, 375);
     
     // TODO 4 - Create Cannons
-
-
-    
-    
-    //////////////////////////////////
+ createCannon('right',115, 500);
+ createCannon('bottom',450, 700);
+createCannon('top',850, 900);
+      //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
   }
